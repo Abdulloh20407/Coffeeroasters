@@ -1,0 +1,43 @@
+
+.site-hero {
+    background-image: url("../images/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero {
+    width: 500px;
+    margin: 130px 90px;
+
+}
+.hero__paragraph {
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    
+}
+.hero__text {
+    margin-top: 32px;
+    margin-bottom: 60px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.hero__link {
+    border-radius: 6px;
+    background: #0E8784;
+    padding: 15px 30px;
+    text-align: center;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+}

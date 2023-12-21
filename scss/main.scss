@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "../scss/container";
+@import "../scss/fonts";
+@import "../scss/general";
+@import "../scss/normalize";
+@import "../scss/visually-hidden";
+@import "../scss/blocks/";
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info__item {
+    width: 260px;   
+    display: inline-block;
+}
+// .info_img {
+
+// }
+// .info__paragraph {
+// }
+// .info__text {
+// }

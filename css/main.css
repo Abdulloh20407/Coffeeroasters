@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.woff") format("woff"), url("../fonts/Barlow-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"), url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces 9pt Soft";
+  src: url("../fonts/Fraunces9ptSoft-Black.woff2") format("woff2"), url("../fonts/Fraunces9ptSoft-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body {
+  background-color: #FEFCF7;
+}
+
+.site-header {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-link {
+  display: inline-block;
+}
+
+.navbar__item {
+  display: inline-block;
+  margin-left: 33px;
+}
+
+.navbar__link {
+  color: #83888F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.site-hero {
+  background-image: url("../images/Bitmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  width: 500px;
+  margin: 130px 90px;
+}
+
+.hero__paragraph {
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+
+.hero__text {
+  margin-top: 32px;
+  margin-bottom: 60px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.hero__link {
+  border-radius: 6px;
+  background: #0E8784;
+  padding: 15px 30px;
+  text-align: center;
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px; /* 138.889% */
+}/*# sourceMappingURL=main.css.map */
